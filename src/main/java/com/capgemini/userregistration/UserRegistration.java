@@ -23,6 +23,10 @@ public class UserRegistration {
 	private boolean validateMobileNo(String mobileNo) {
 		return mobileNo.matches("^[0-9]{2}[ ][0-9]{10}$");
 	}
+	
+	private boolean validatePassword(String password) {
+		return password.matches("^.{8,}$");
+	}
 
 	public static void main( String[] args ) {
 		UserRegistration userRegistration = new UserRegistration();
@@ -54,5 +58,12 @@ public class UserRegistration {
 			LOG.info("Valid Mobile No");
 		else
 			LOG.info("Invalid Mobile No");
+
+		LOG.info("Password: ");
+		String password = sc.nextLine();
+		if(userRegistration.validatePassword(password))
+			LOG.info("Valid Password");
+		else
+			LOG.info("Invalid Password");
 	} 
 }
