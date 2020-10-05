@@ -130,3 +130,4 @@ INFO  | 2020-10-05 16:06:13 | [main] userregistration.UserRegistration (UserRegi
 INFO  | 2020-10-05 16:06:13 | [main] userregistration.UserRegistration (UserRegistration.java:54) - abc@abc@gmail.com is INVALID
 INFO  | 2020-10-05 16:06:13 | [main] userregistration.UserRegistration (UserRegistration.java:54) - abc@gmail.com.1a is INVALID
 INFO  | 2020-10-05 16:06:13 | [main] userregistration.UserRegistration (UserRegistration.java:54) - abc@gmail.com.aa.au is INVALID
+INFO  | 2020-10-05 16:27:53 | [main] userregistration.UserRegistration (UserRegistration.java:34) - First Name: 
