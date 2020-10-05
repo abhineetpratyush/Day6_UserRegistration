@@ -19,6 +19,10 @@ public class UserRegistration {
 	private boolean validateEmail(String emailId) {
 		return emailId.matches("^[a-zA-Z0-9_]+([.+-]{1}[a-zA-Z0-9_]+)*[@]{1}[a-zA-Z0-9]+[.]{1}[a-zA-Z0-9]{2,}([.]{1}[a-zA-Z]{2,})?$");
 	}
+	
+	private boolean validateMobileNo(String mobileNo) {
+		return mobileNo.matches("^[0-9]{2}[ ][0-9]{10}$");
+	}
 
 	public static void main( String[] args ) {
 		UserRegistration userRegistration = new UserRegistration();
@@ -43,5 +47,12 @@ public class UserRegistration {
 			LOG.info("Valid Email Id");
 		else
 			LOG.info("Invalid Email Id");
+		
+		LOG.info("Mobile No: ");
+		String mobileNo = sc.nextLine();
+		if(userRegistration.validateMobileNo(mobileNo))
+			LOG.info("Valid Mobile No");
+		else
+			LOG.info("Invalid Mobile No");
 	} 
 }

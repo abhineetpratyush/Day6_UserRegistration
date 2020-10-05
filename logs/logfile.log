@@ -30,3 +30,19 @@ INFO  | 2020-10-05 15:06:17 | [main] userregistration.UserRegistration (UserRegi
 INFO  | 2020-10-05 15:06:20 | [main] userregistration.UserRegistration (UserRegistration.java:36) - Valid Last Name
 INFO  | 2020-10-05 15:06:20 | [main] userregistration.UserRegistration (UserRegistration.java:40) - Email ID: 
 INFO  | 2020-10-05 15:06:26 | [main] userregistration.UserRegistration (UserRegistration.java:45) - Invalid Email Id
+INFO  | 2020-10-05 15:12:28 | [main] userregistration.UserRegistration (UserRegistration.java:30) - First Name: 
+INFO  | 2020-10-05 15:12:35 | [main] userregistration.UserRegistration (UserRegistration.java:33) - Valid First Name
+INFO  | 2020-10-05 15:12:35 | [main] userregistration.UserRegistration (UserRegistration.java:37) - Last Name: 
+INFO  | 2020-10-05 15:12:37 | [main] userregistration.UserRegistration (UserRegistration.java:40) - Valid Last Name
+INFO  | 2020-10-05 15:12:37 | [main] userregistration.UserRegistration (UserRegistration.java:44) - Email ID: 
+INFO  | 2020-10-05 15:12:43 | [main] userregistration.UserRegistration (UserRegistration.java:47) - Valid Email Id
+INFO  | 2020-10-05 15:12:43 | [main] userregistration.UserRegistration (UserRegistration.java:51) - Mobile No: 
+INFO  | 2020-10-05 15:12:50 | [main] userregistration.UserRegistration (UserRegistration.java:56) - Invalid Mobile No
+INFO  | 2020-10-05 15:12:52 | [main] userregistration.UserRegistration (UserRegistration.java:30) - First Name: 
+INFO  | 2020-10-05 15:12:55 | [main] userregistration.UserRegistration (UserRegistration.java:33) - Valid First Name
+INFO  | 2020-10-05 15:12:55 | [main] userregistration.UserRegistration (UserRegistration.java:37) - Last Name: 
+INFO  | 2020-10-05 15:12:58 | [main] userregistration.UserRegistration (UserRegistration.java:40) - Valid Last Name
+INFO  | 2020-10-05 15:12:58 | [main] userregistration.UserRegistration (UserRegistration.java:44) - Email ID: 
+INFO  | 2020-10-05 15:13:03 | [main] userregistration.UserRegistration (UserRegistration.java:47) - Valid Email Id
+INFO  | 2020-10-05 15:13:03 | [main] userregistration.UserRegistration (UserRegistration.java:51) - Mobile No: 
+INFO  | 2020-10-05 15:13:07 | [main] userregistration.UserRegistration (UserRegistration.java:54) - Valid Mobile No
