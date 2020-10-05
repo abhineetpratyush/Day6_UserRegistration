@@ -17,3 +17,16 @@ INFO  | 2020-10-05 14:58:45 | [main] userregistration.UserRegistration (UserRegi
 INFO  | 2020-10-05 14:58:51 | [main] userregistration.UserRegistration (UserRegistration.java:25) - Valid First Name
 INFO  | 2020-10-05 14:58:51 | [main] userregistration.UserRegistration (UserRegistration.java:29) - Last Name: 
 INFO  | 2020-10-05 14:58:55 | [main] userregistration.UserRegistration (UserRegistration.java:32) - Valid Last Name
+INFO  | 2020-10-05 15:05:36 | [main] userregistration.UserRegistration (UserRegistration.java:26) - First Name: 
+INFO  | 2020-10-05 15:05:50 | [main] userregistration.UserRegistration (UserRegistration.java:26) - First Name: 
+INFO  | 2020-10-05 15:05:56 | [main] userregistration.UserRegistration (UserRegistration.java:29) - Valid First Name
+INFO  | 2020-10-05 15:05:56 | [main] userregistration.UserRegistration (UserRegistration.java:33) - Last Name: 
+INFO  | 2020-10-05 15:06:01 | [main] userregistration.UserRegistration (UserRegistration.java:36) - Valid Last Name
+INFO  | 2020-10-05 15:06:01 | [main] userregistration.UserRegistration (UserRegistration.java:40) - Email ID: 
+INFO  | 2020-10-05 15:06:07 | [main] userregistration.UserRegistration (UserRegistration.java:43) - Valid Email Id
+INFO  | 2020-10-05 15:06:15 | [main] userregistration.UserRegistration (UserRegistration.java:26) - First Name: 
+INFO  | 2020-10-05 15:06:17 | [main] userregistration.UserRegistration (UserRegistration.java:29) - Valid First Name
+INFO  | 2020-10-05 15:06:17 | [main] userregistration.UserRegistration (UserRegistration.java:33) - Last Name: 
+INFO  | 2020-10-05 15:06:20 | [main] userregistration.UserRegistration (UserRegistration.java:36) - Valid Last Name
+INFO  | 2020-10-05 15:06:20 | [main] userregistration.UserRegistration (UserRegistration.java:40) - Email ID: 
+INFO  | 2020-10-05 15:06:26 | [main] userregistration.UserRegistration (UserRegistration.java:45) - Invalid Email Id

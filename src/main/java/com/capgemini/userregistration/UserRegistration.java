@@ -15,6 +15,10 @@ public class UserRegistration {
 	private boolean validateLastName(String lastName) {
 		return lastName.matches("^[A-Z]{1}[a-z]{2,}$");
 	}	
+	
+	private boolean validateEmail(String emailId) {
+		return emailId.matches("^[a-zA-Z0-9_]+([.+-]{1}[a-zA-Z0-9_]+)*[@]{1}[a-zA-Z0-9]+[.]{1}[a-zA-Z0-9]{2,}([.]{1}[a-zA-Z]{2,})?$");
+	}
 
 	public static void main( String[] args ) {
 		UserRegistration userRegistration = new UserRegistration();
@@ -33,5 +37,11 @@ public class UserRegistration {
 		else
 			LOG.info("Invalid Last Name");
 		
+		LOG.info("Email ID: ");
+		String emailId = sc.nextLine();
+		if(userRegistration.validateEmail(emailId))
+			LOG.info("Valid Email Id");
+		else
+			LOG.info("Invalid Email Id");
 	} 
 }
