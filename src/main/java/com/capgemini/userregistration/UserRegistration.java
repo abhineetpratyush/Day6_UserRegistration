@@ -25,7 +25,7 @@ public class UserRegistration {
 	}
 	
 	private boolean validatePassword(String password) {
-		return password.matches("^.{8,}$");
+		return password.matches("^(?=.*[A-Z]).{8,}$");
 	}
 
 	public static void main( String[] args ) {
