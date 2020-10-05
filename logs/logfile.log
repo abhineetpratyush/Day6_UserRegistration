@@ -13,3 +13,7 @@ INFO  | 2020-10-05 14:47:49 | [main] userregistration.UserRegistration (UserRegi
 INFO  | 2020-10-05 14:47:50 | [main] userregistration.UserRegistration (UserRegistration.java:20) - Valid First Name
 INFO  | 2020-10-05 14:47:53 | [main] userregistration.UserRegistration (UserRegistration.java:16) - First Name: 
 INFO  | 2020-10-05 14:47:53 | [main] userregistration.UserRegistration (UserRegistration.java:22) - Invalid First Name
+INFO  | 2020-10-05 14:58:45 | [main] userregistration.UserRegistration (UserRegistration.java:22) - First Name: 
+INFO  | 2020-10-05 14:58:51 | [main] userregistration.UserRegistration (UserRegistration.java:25) - Valid First Name
+INFO  | 2020-10-05 14:58:51 | [main] userregistration.UserRegistration (UserRegistration.java:29) - Last Name: 
+INFO  | 2020-10-05 14:58:55 | [main] userregistration.UserRegistration (UserRegistration.java:32) - Valid Last Name
