@@ -77,3 +77,14 @@ INFO  | 2020-10-05 15:39:10 | [main] userregistration.UserRegistration (UserRegi
 INFO  | 2020-10-05 15:39:15 | [main] userregistration.UserRegistration (UserRegistration.java:58) - Valid Mobile No
 INFO  | 2020-10-05 15:39:15 | [main] userregistration.UserRegistration (UserRegistration.java:62) - Password: 
 INFO  | 2020-10-05 15:39:33 | [main] userregistration.UserRegistration (UserRegistration.java:67) - Invalid Password
+INFO  | 2020-10-05 15:42:44 | [main] userregistration.UserRegistration (UserRegistration.java:34) - First Name: 
+INFO  | 2020-10-05 15:42:53 | [main] userregistration.UserRegistration (UserRegistration.java:34) - First Name: 
+INFO  | 2020-10-05 15:42:56 | [main] userregistration.UserRegistration (UserRegistration.java:37) - Valid First Name
+INFO  | 2020-10-05 15:42:56 | [main] userregistration.UserRegistration (UserRegistration.java:41) - Last Name: 
+INFO  | 2020-10-05 15:42:58 | [main] userregistration.UserRegistration (UserRegistration.java:44) - Valid Last Name
+INFO  | 2020-10-05 15:42:58 | [main] userregistration.UserRegistration (UserRegistration.java:48) - Email ID: 
+INFO  | 2020-10-05 15:43:02 | [main] userregistration.UserRegistration (UserRegistration.java:51) - Valid Email Id
+INFO  | 2020-10-05 15:43:02 | [main] userregistration.UserRegistration (UserRegistration.java:55) - Mobile No: 
+INFO  | 2020-10-05 15:43:07 | [main] userregistration.UserRegistration (UserRegistration.java:58) - Valid Mobile No
+INFO  | 2020-10-05 15:43:07 | [main] userregistration.UserRegistration (UserRegistration.java:62) - Password: 
+INFO  | 2020-10-05 15:43:16 | [main] userregistration.UserRegistration (UserRegistration.java:67) - Invalid Password
