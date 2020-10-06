@@ -8,24 +8,39 @@ public class UserRegistration {
 
 	private static final Logger LOG = LogManager.getLogger(UserRegistration.class);
 
-	public boolean validateFirstName(String firstName) {
-		return firstName.matches("^[A-Z]{1}[a-z]{2,}$");
+	public boolean validateFirstName(String firstName) throws UserRegistrationException {
+		if(firstName.matches("^[A-Z]{1}[a-z]{2,}$"))
+			return true;
+		else
+			throw new UserRegistrationException("Invalid First Name");
 	}
 
-	public boolean validateLastName(String lastName) {
-		return lastName.matches("^[A-Z]{1}[a-z]{2,}$");
+	public boolean validateLastName(String lastName) throws UserRegistrationException {
+		if(lastName.matches("^[A-Z]{1}[a-z]{2,}$"))
+			return true;
+		else 
+			throw new UserRegistrationException("Invalid Last Name");
 	}	
 
-	public boolean validateEmail(String emailId) {
-		return emailId.matches("^[a-zA-Z0-9_]+([.+-]{1}[a-zA-Z0-9_]+)*[@]{1}[a-zA-Z0-9]+[.]{1}[a-zA-Z0-9]{2,}([.]{1}[a-zA-Z]{2,})?$");
+	public boolean validateEmail(String emailId) throws UserRegistrationException {
+		if(emailId.matches("^[a-zA-Z0-9_]+([.+-]{1}[a-zA-Z0-9_]+)*[@]{1}[a-zA-Z0-9]+[.]{1}[a-zA-Z0-9]{2,}([.]{1}[a-zA-Z]{2,})?$"))
+			return true;
+		else
+			throw new UserRegistrationException("Invalid Email Id");
 	}
 
-	public boolean validateMobileNo(String mobileNo) {
-		return mobileNo.matches("^[0-9]{2}[ ][0-9]{10}$");
+	public boolean validateMobileNo(String mobileNo) throws UserRegistrationException {
+		if(mobileNo.matches("^[0-9]{2}[ ][0-9]{10}$"))
+			return true;
+		else
+			throw new UserRegistrationException("Invalid Mobile No");
 	}
 
-	public boolean validatePassword(String password) {
-		return password.matches("(?=^.{8,}$)(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9]*[@#$%_][0-9a-zA-Z]*");
+	public boolean validatePassword(String password) throws UserRegistrationException {
+		if(password.matches("(?=^.{8,}$)(?=.*[A-Z])(?=.*[0-9])[a-zA-Z0-9]*[@#$%_][0-9a-zA-Z]*"))
+			return true;
+		else
+			throw new UserRegistrationException("Invalid Password");
 	}
 
 	public static void main( String[] args ) {
@@ -33,37 +48,48 @@ public class UserRegistration {
 		Scanner sc = new Scanner(System.in);
 		LOG.info("First Name: ");
 		String firstName = sc.nextLine();
-		if(userRegistration.validateFirstName(firstName))
-			LOG.info("Valid First Name");
-		else
-			LOG.info("Invalid First Name");
+		try {
+			if(userRegistration.validateFirstName(firstName))
+				LOG.info("Valid First Name");
+		}
+		catch(UserRegistrationException e) {
+			e.printStackTrace();
+		}
 
 		LOG.info("Last Name: ");
 		String lastName = sc.nextLine();
-		if(userRegistration.validateLastName(lastName))
-			LOG.info("Valid Last Name");
-		else
-			LOG.info("Invalid Last Name");
+		try {
+			if(userRegistration.validateLastName(lastName))
+				LOG.info("Valid Last Name");
+		} catch (UserRegistrationException e) {
+			e.printStackTrace();
+		}
 
 		LOG.info("Email ID: ");
 		String emailId = sc.nextLine();
-		if(userRegistration.validateEmail(emailId))
-			LOG.info("Valid Email Id");
-		else
-			LOG.info("Invalid Email Id");
+		try {
+			if(userRegistration.validateEmail(emailId))
+				LOG.info("Valid Email Id");
+		} catch (UserRegistrationException e) {
+			e.printStackTrace();
+		}
 
 		LOG.info("Mobile No: ");
 		String mobileNo = sc.nextLine();
-		if(userRegistration.validateMobileNo(mobileNo))
-			LOG.info("Valid Mobile No");
-		else
-			LOG.info("Invalid Mobile No");
+		try {
+			if(userRegistration.validateMobileNo(mobileNo))
+				LOG.info("Valid Mobile No");
+		} catch (UserRegistrationException e) {
+			e.printStackTrace();
+		}
 
 		LOG.info("Password: ");
 		String password = sc.nextLine();
-		if(userRegistration.validatePassword(password))
-			LOG.info("Valid Password");
-		else
-			LOG.info("Invalid Password");
+		try {
+			if(userRegistration.validatePassword(password))
+				LOG.info("Valid Password");
+		} catch (UserRegistrationException e) {
+			e.printStackTrace();
+		}
 	}
 }

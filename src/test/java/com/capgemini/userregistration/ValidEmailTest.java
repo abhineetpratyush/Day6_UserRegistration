@@ -27,7 +27,11 @@ public class ValidEmailTest {
 	@Test
 	public void validEmailTest() {
 		UserRegistration emailValidator = new UserRegistration();
-		assertEquals(expectedValidation, emailValidator.validateEmail(givenEmailId));
+		try {
+			assertEquals(expectedValidation, emailValidator.validateEmail(givenEmailId));
+		} catch (UserRegistrationException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	

@@ -131,3 +131,10 @@ INFO  | 2020-10-05 16:06:13 | [main] userregistration.UserRegistration (UserRegi
 INFO  | 2020-10-05 16:06:13 | [main] userregistration.UserRegistration (UserRegistration.java:54) - abc@gmail.com.1a is INVALID
 INFO  | 2020-10-05 16:06:13 | [main] userregistration.UserRegistration (UserRegistration.java:54) - abc@gmail.com.aa.au is INVALID
 INFO  | 2020-10-05 16:27:53 | [main] userregistration.UserRegistration (UserRegistration.java:34) - First Name: 
+INFO  | 2020-10-06 22:15:15 | [main] userregistration.UserRegistration (UserRegistration.java:49) - First Name: 
+INFO  | 2020-10-06 22:29:32 | [main] userregistration.UserRegistration (UserRegistration.java:49) - First Name: 
+INFO  | 2020-10-06 22:33:01 | [main] userregistration.UserRegistration (UserRegistration.java:49) - First Name: 
+INFO  | 2020-10-06 22:33:06 | [main] userregistration.UserRegistration (UserRegistration.java:59) - Last Name: 
+INFO  | 2020-10-06 22:33:13 | [main] userregistration.UserRegistration (UserRegistration.java:63) - Valid Last Name
+INFO  | 2020-10-06 22:33:13 | [main] userregistration.UserRegistration (UserRegistration.java:68) - Email ID: 
+INFO  | 2020-10-06 22:33:17 | [main] userregistration.UserRegistration (UserRegistration.java:77) - Mobile No: 
